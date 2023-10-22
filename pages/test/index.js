@@ -14,11 +14,11 @@ const Index = () => {
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios(
-        `https://api.buttercms.com/v2/content/my_quiz_app?auth_token=${read_token}`
+        `https://api.buttercms.com/v2/content/cyber_security_quiz?auth_token=${read_token}`
       );
-      console.log(result.data.data.my_quiz_app);
-      setQuizQuestions(result.data.data.my_quiz_app);
-      setQuestionLength(result.data.data.my_quiz_app.length);
+      console.log(result.data.data.cyber_security_quiz);
+      setQuizQuestions(result.data.data.cyber_security_quiz);
+      setQuestionLength(result.data.data.cyber_security_quiz.length);
     };
     fetchData();
   }, []);
