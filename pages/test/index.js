@@ -14,7 +14,7 @@ const Index = () => {
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios(
-        `https://api.buttercms.com/v2/content/cyber_security_quiz?auth_token=${read_token}`
+        `https://api.buttercms.com/v2/content/cyber_security_quiz?auth_token=c003e8f971306631d23f7f216d2fcef18d1364b1`
       );
       console.log(result.data.data.cyber_security_quiz);
       setQuizQuestions(result.data.data.cyber_security_quiz);
