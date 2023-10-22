@@ -42,41 +42,41 @@ const Index = () => {
         {!quizEnded ? (
           <div className="w-4/5 min-h-[75%] shadow-2xl flex flex-col justify-center items-center font-medium gap-16 ">
             <h1 className="text-2xl">
-              {quizQuestions[questionNumber]?.quiz_question}?
+              {quizQuestions[questionNumber]?.question}?
             </h1>
             <div className=" grid grid-cols-2 gap-8 gap-x-12 ">
               {/* options */}
               <div
                 className=" w-[400px] rounded-md flex justify-center items-center py-4 text-white bg-blue-400 hover:cursor-pointer hover:bg-blue-600"
                 onClick={() =>
-                  handleChoice(quizQuestions[questionNumber]?.option_one)
+                  handleChoice(quizQuestions[questionNumber]?.option_1)
                 }
               >
-                {quizQuestions[questionNumber]?.option_one}
+                {quizQuestions[questionNumber]?.option_1}
               </div>
               <div
                 className=" w-[400px] rounded-md flex justify-center items-center py-4 text-white bg-blue-400 hover:cursor-pointer hover:bg-blue-600"
                 onClick={() =>
-                  handleChoice(quizQuestions[questionNumber]?.option_two)
+                  handleChoice(quizQuestions[questionNumber]?.option_2)
                 }
               >
-                {quizQuestions[questionNumber]?.option_two}
+                {quizQuestions[questionNumber]?.option_2}
               </div>
               <div
                 className=" w-[400px] rounded-md flex justify-center items-center py-4 text-white bg-blue-400 hover:cursor-pointer hover:bg-blue-600"
                 onClick={() =>
-                  handleChoice(quizQuestions[questionNumber]?.option_three)
+                  handleChoice(quizQuestions[questionNumber]?.option_3)
                 }
               >
-                {quizQuestions[questionNumber]?.option_three}
+                {quizQuestions[questionNumber]?.option_3}
               </div>
               <div
                 className=" w-[400px] rounded-md flex justify-center items-center py-4 text-white bg-blue-400 hover:cursor-pointer hover:bg-blue-600"
                 onClick={() =>
-                  handleChoice(quizQuestions[questionNumber]?.option_four)
+                  handleChoice(quizQuestions[questionNumber]?.option_4)
                 }
               >
-                {quizQuestions[questionNumber]?.option_four}
+                {quizQuestions[questionNumber]?.option_4}
               </div>
               {isQuestionAnswered ? (
                 <button
