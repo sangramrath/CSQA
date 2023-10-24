@@ -8,11 +8,10 @@ const Quizselection = () => {
   return (
         <div className=" pt-6">
           <h1 className=" text-blue-700 text-center text-3xl font-medium my-6 ">
-            Welcome to my Quiz App
+            Cyber Security Quiz
           </h1>
           <p className=" text-center mt-12 mb-8 ">
-            Looking to test your general knowlege..? Then you are at the right
-            place. Try out this fun quiz
+            Take this quiz to test your Cyber Security knowledge. 
           </p>
           <div className=" flex justify-center items-center">
             <div className=" w-[500px] px-8 py-4 shadow-2xl bg-blue-400 text-white flex justify-center items-center flex-col gap-6 ">
