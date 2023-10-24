@@ -17,13 +17,12 @@ const Quizselection = () => {
             <div className=" w-[500px] px-8 py-4 shadow-2xl bg-blue-400 text-white flex justify-center items-center flex-col gap-6 ">
               <h1 className=" font-extrabold text-xl ">A Fun Quiz</h1>
               <p>
-                A quiz covering diffent areas of general knowlege. Test your
-                knowlege and see how much you know as you go along. Answer
-                questions on history, geography, science, movies, and more.
+                A quiz covering various areas of cyber security. Answer
+                questions on malware, crytography, phishing, and more.
               </p>
               <div className="w-full flex justify-end pr-3">
                 <button className=" bg-white px-5 py-2 rounded-sm text-black hover:cursor-pointer ">
-                  <Link href="/test" >Begin Test</Link>
+                  <Link href="/test" >Launch Test</Link>
                 </button>
               </div>
             </div>
